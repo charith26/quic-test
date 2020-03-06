@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "bd9f976f-e56e-4357-b649-4782614f587e",
+		"name": "QUIC API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost/api?key=Hello",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "Hello"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
